@@ -15,7 +15,7 @@ class ClaudeCodeTree < Formula
     (bin/"claude-code-tree").write <<~SH
       #!/bin/bash
       export PYTHONPATH="#{libexec}${PYTHONPATH:+:$PYTHONPATH}"
-      exec "#{Formula["python@3.13"].opt_bin}/python3.13" -m cct "$@"
+      exec "#{formula_opt_bin("python@3.13")}/python3.13" -m cct "$@"
     SH
     chmod 0755, bin/"claude-code-tree"
   end

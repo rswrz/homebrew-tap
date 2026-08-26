@@ -1,8 +1,8 @@
 class ClaudeCodeTree < Formula
   desc "Terminal UI for browsing Claude Code sessions as a fork tree"
   homepage "https://github.com/rswrz/claude-code-tree"
-  url "https://github.com/rswrz/claude-code-tree/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "64426f7e55b9f32a0f172644eaac709f7902a0106d6ebe3b70fa0a2f5aecf698"
+  url "https://github.com/rswrz/claude-code-tree/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "76e802acd445ede5ae2f4e88fbfb76890653d01de897730c7f6a63a73b7df29c"
   license "MIT"
   head "https://github.com/rswrz/claude-code-tree.git", branch: "main"
 
